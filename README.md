@@ -81,4 +81,5 @@ Specify your credentials here :
 
 Then you can import the dashboard : 
 
-![image](https://user-images.githubusercontent.com/62135577/209438413-c6101bad-1012-4434-9827-6914426d5544.png)
+![image](https://user-images.githubusercontent.com/62135577/209470358-e92f55a5-a07c-4a3d-8bf2-dbd4f298d822.png)
+
