@@ -1,8 +1,6 @@
 # Lelit-Marax-Dashboard
 This project was made to visualise data from the Lelit MaraX coffee machine.
 
-You can contact me on twitter if you have any questions [@m_patato](https://twitter.com/M_Patato)
-
 Sources for this project :
 
 - https://www.home-barista.com/espresso-machines/lelit-marax-data-visualisation-mod-t66187-10.html
@@ -22,7 +20,7 @@ Connect the USB to TTL on your coffee Machine. Pin 0 (closer th the edge/outside
 
 Connect th USB to the rpi. You can see the raw data in /dev/ttyUSB0.
 
-You can verify every thing is correct with this command 
+You can verify everything is correct with this command 
 
 
 ~# tail -f /dev/ttyUSB0
