@@ -129,4 +129,3 @@ if __name__ == '__main__':
     while True:
         for reporter in reporters:
             reporter.collect_and_report()
-        time.sleep(1)
