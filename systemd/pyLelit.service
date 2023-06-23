@@ -1,0 +1,13 @@
+[Unit]
+Description=Python data sender for Lelit Mara X
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3s
+RuntimeMaxSec=1d
+ExecStart=/home/.../venv/myvenv/bin/python /home/.../reporters.py
+
+[Install]
+WantedBy=multi-user.target
