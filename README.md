@@ -43,6 +43,15 @@ You can verify everything is correct with this command
 - ~# chmod +x reporters.py 
 - ~# nohup ./reporters.py >/dev/null 2>&1 &
 
+## System D
+
+You can add a service to restart the script every day. It is also easier to restart the app if it crash.
+
+Place the pyLelit.service file in /etc/systemd/system/
+
+- To see the status : systemctl status pyLelit
+- To restart : systemctl restart pyLelit
+
 ## Docker
 
 You can install docker on your raspberry pi, or use a server.
